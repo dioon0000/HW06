@@ -26,4 +26,3 @@ void ARotatePlatformPitch::Tick(float DeltaTime)
 
 	AddActorLocalRotation(FRotator(RotationSpeed*DeltaTime, 0.0f, 0.0f));
 }
-
